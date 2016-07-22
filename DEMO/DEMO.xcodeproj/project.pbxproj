@@ -13,6 +13,7 @@
 		046DBF7E1D41FD9000D53978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046DBF7C1D41FD9000D53978 /* Main.storyboard */; };
 		046DBF801D41FD9000D53978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046DBF7F1D41FD9000D53978 /* Assets.xcassets */; };
 		046DBF831D41FD9000D53978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046DBF811D41FD9000D53978 /* LaunchScreen.storyboard */; };
+		046DBF8C1D41FEEF00D53978 /* XMGMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 046DBF8B1D41FEEF00D53978 /* XMGMode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		046DBF7F1D41FD9000D53978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046DBF821D41FD9000D53978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046DBF841D41FD9000D53978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046DBF8A1D41FEEF00D53978 /* XMGMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMode.h; sourceTree = "<group>"; };
+		046DBF8B1D41FEEF00D53978 /* XMGMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				046DBF811D41FD9000D53978 /* LaunchScreen.storyboard */,
 				046DBF841D41FD9000D53978 /* Info.plist */,
 				046DBF731D41FD9000D53978 /* Supporting Files */,
+				046DBF8A1D41FEEF00D53978 /* XMGMode.h */,
+				046DBF8B1D41FEEF00D53978 /* XMGMode.m */,
 			);
 			path = DEMO;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				046DBF7B1D41FD9000D53978 /* ViewController.m in Sources */,
+				046DBF8C1D41FEEF00D53978 /* XMGMode.m in Sources */,
 				046DBF781D41FD9000D53978 /* AppDelegate.m in Sources */,
 				046DBF751D41FD9000D53978 /* main.m in Sources */,
 			);
